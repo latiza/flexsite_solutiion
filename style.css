@@ -1,0 +1,36 @@
+.wrapper {
+    width: 1000px;
+    margin: 0 auto
+}
+
+header {
+    background-color: aqua;
+    height: 150px;
+}
+
+footer {
+    background-color: blue;
+    height: 150px;
+}
+
+.content {
+    display: flex;
+    height: 600px;
+    justify-content: space-between
+}
+
+.navbar {
+    background-color: orange;
+    flex-grow: 1;
+}
+
+.maincontent {
+    background-color: red;
+    flex-grow: 2;
+    margin: 0 25px;
+}
+
+.sidebar {
+    background-color: purple;
+    flex-grow: 1;
+}
